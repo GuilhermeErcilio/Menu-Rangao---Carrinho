@@ -1,0 +1,11 @@
+{
+    "produtos" :
+      [
+       {"valor": 21.99, "nome": "Combo Completo", "Restaurante" : "Burguer King"},
+       {"valor": 25.99, "nome": "Balde de Frango", "Restaurante": "KFC"},
+       {"valor": 30.99, "nome": "Brasileirão", "Restaurante": "Giraffas"},
+       {"valor": 35.00, "nome": "10 Hot Rolls", "Restaurante": "Temakeria Paulista"},
+       {"valor": 17.99, "nome": "Pizza Calabreza", "Restaurante": "Pizza Hut"},
+       {"valor": 7.99, "nome": "Mini Bolo Floresta Negra", "Restaurante": "Sodiê"}
+      ]
+   }

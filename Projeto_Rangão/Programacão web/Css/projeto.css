@@ -1,0 +1,106 @@
+body{
+    background-image: url(imagem/back1.jpg);
+    background-attachment: fixed;
+    background-color: yellow;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#menu{
+    width: 150px;
+    height: 450px;
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
+    border: double;
+    border-color: orange;
+    border-width: thick;
+    border-radius: 25px 0px 0px 25px;
+    margin-left: 160px;
+    margin-top: 15px;
+    background-color: whitesmoke;
+    box-shadow: 3px 4px 6px 0px black;
+}
+
+#compras{
+    width: 830px;
+    height: 450px;
+    border: double;
+    border-color: orange;
+    border-width: thick;
+    border-radius: 0px 25px 25px 0px;
+    margin-top: -460px;
+    margin-left: 330px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    box-shadow: 3px 4px 6px 0px black;
+    
+}
+
+.produtos{
+    width: 230px;
+    height: 200px;
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 33px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: orange;
+    float: left;
+}
+
+button{
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+hr{
+    border: 2px dashed;
+}
+
+#tabela{
+    width: 830px;
+    height: 450px;
+    border: double;
+    border-color: orange;
+    border-width: thick;
+    border-radius: 0px 25px 25px 0px;
+    margin-top: -460px;
+    margin-left: 330px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    box-shadow: 4px 4px 6px 0px black;
+}
+
+#tab{
+    width: 750px;
+    margin-left: 20px;
+    border-style: dashed;
+    border-top: 100px;
+    border-top: dashed;
+    border-color: orange;
+    background-color: whitesmoke;
+}
+
+
+#botaoLimpa{
+    width: 150px;
+    margin-top: 8px;
+    margin-left: 8px;
+    background-color: orange;
+}
+
+#rodape{
+    text-align: center;
+    width: 1030px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: -100px;
+    border: double;
+    border-radius: 10px;
+    border-color: rgb(255, 166, 0);
+    border-width: thick;
+    background-color: whitesmoke;
+    box-shadow: 3px 4px 6px 0px black;
+}

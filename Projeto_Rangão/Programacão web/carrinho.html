@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rangão Delivery - UNICSUL</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="menu/projeto.js"></script>
+    <link rel="stylesheet" type="text/css" href="Css/projeto.css">
+</head>
+<body>
+    <nav id="menu"> Menu <br> <br></nav>
+
+    <div id="tabela">
+
+        <button onclick="localStorage.clear()" id="botaoLimpa"> Limpar Carrinho </button>
+
+        <table>   
+
+        <tr heigth= "50" id="tab">
+            <td id="tab"> Prato:  </td>
+            <td id="tab"><span id="l"> 
+
+            </span></td>
+        </tr>
+
+        <tr></tr>
+
+        <tr heigth= "50" id="tab">
+            <td id="tab"> <br> </td>
+            <td id="tab"><span id="m"> 
+
+            </span></td>
+        </tr>
+
+        <tr></tr>
+
+        <tr heigth= "50" id="tab">
+            <td id="tab"> <br> </td>
+            <td id="tab"><span id="n">
+                 </span></td>
+        </tr>
+
+        <tr></tr>
+
+        <tr heigth= "50" id="tab">
+            <td id="tab"> <br> </td>
+            <td id="tab"><span id="p">
+             </span></td>
+        </tr>
+
+        <tr></tr>
+
+        <tr heigth= "50" id="tab">
+            <td id="tab"> <br> </td>
+            <td id="tab"><span id="q"> 
+
+            </span></td>
+        </tr>
+
+        <tr></tr>
+
+        <tr heigth= "50" id="tab">
+            <td id="tab"> <br> </td>
+            <td id="tab"><span id="r"> 
+
+            </span></td>
+        </tr>
+
+        <tr heigth= "50">
+            <td id="tab"> Valor Total: </td>
+            <td id="tab"><span id="plus">R$</span></td>
+        </tr>
+        </table>
+
+    </div>
+
+    <footer id="rodape"> Desenvolvido pelo(s) Programador(es): <br>
+        Lívia de Almeida (RGM: 2353954-2) <br>
+        Guilherme Ercilio Araujo Silva (RGM: 2401139-8) </footer>
+        
+    <script>
+        $(function(){
+            soma()
+            getback();
+        });
+    </script>
+
+    
+</body>
+</html>
